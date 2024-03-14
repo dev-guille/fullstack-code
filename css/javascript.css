@@ -1,0 +1,22 @@
+.titulo{
+    font-size: var(--tamaño-fuente-titulo);
+    padding: 20px;
+    color: #f9e74b;
+}
+.contenido h3{
+    font-size: var(--tamaño-fuente-subtitulo-h3);
+    padding: 20px;
+}
+.parrafo-contenido{
+    font-size: var(--tamaño-fuente-general);
+    padding: 20px
+}
+.parrafo-contenido span{
+    color: red;
+}
+.contenedor-codigo div{
+    text-align: center;
+}
+.contenedor-codigo div img{
+    border-radius: 0px 40px 40px 0px;
+}
