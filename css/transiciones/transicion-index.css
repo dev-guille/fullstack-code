@@ -1,7 +1,0 @@
-.cursos{
-    transition: background-color .5s;
-}
-
-.cursos:hover{
-    background-color: #017d9d;
-}
