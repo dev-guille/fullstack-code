@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial JAVASCRIPT</title>
+    <link rel="stylesheet" href="../css/estilo-general.css">
+    <link rel="stylesheet" href="../css/javascript.css">
+    <link rel="stylesheet" href="../css/ejemplos.css">
+</head>
+<body>
+    <div class="grid-contenedor-js">
+       
+        <header class="grid-header">
+            <img id="evento-js" src="../img/iconos/menu-de-hamburguesas.png" alt="">
+        </header>
+        <nav class="grid-nav">
+<!--             <img class="logo" src="../img/iconos/diseno-web.png" alt=""> -->
+            <ul class="nav-ul">
+                <li class="nav-li">
+                    <img class="inicio" src="../img/iconos/casa-icono-silueta.png" alt="">
+                    <a href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-li">
+                    <a href="">Introducción a JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="paginas/css.html">La etiqueta  script </a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Salida JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Declaraciones JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Sintxis JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Comentarios JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Variables JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Operadores JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Funciones JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Objetos JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Eventos JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Cadenas JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Matrices JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Fechas JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Comparaciones JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Condicionales JS</a>
+                </li>
+                <li class="nav-li">
+                    <a href="javascript.html">Bucles JS</a>
+                </li>
+            </ul>
+        </nav>
+        <main class="grid-columnaContenedor">
+            <article class="titulo">
+                <h2>Introducción a JavaScript</h2>
+            </article>
+            <article class="contenido">
+                <h3>JavaScript puede cambiar el contendio HTML</h3>
+                <p class="parrafo-contenido">Uno de los muchos métodos HTML de JavaScript es <span>getElementById()</span>.</p>
+                <section class="ejemplo">
+                    <p>Ejemplo 1</p>
+                    <div class="contenedor-codigo">
+                        <span>document.getElementById("saludo").innerHTML = "Hola JavaScript";</span>
+                    </div>
+                    <div class="contenedor-boton">
+                        <input id="boton1" type="button" value="Vista previa" onclick="abrirEjemplo1()"></input>
+                    </div>
+                </section>
+                <p class="parrafo-contenido">JavaScript acepta comillas simples y dobles.</p>
+                <section class="ejemplo">
+                    <p>Ejemplo 2</p>
+                    <div class="contenedor-codigo">
+                        <span>document.getElementById('saludo').innerHTML = 'Hola JavaScript';</span>
+                    </div>
+                    <div class="contenedor-boton">
+                        <input id="boton2" type="button" value="Vista previa" onclick="abrirEjemplo2()"></input>
+                    </div>
+                </section>
+                <h3>JavaScript puede cambiar los valores de los atributos HTML</h3>
+                <p class="parrafo-contenido">En el siguiente ejemplo, JS cambia el valor del atributo <span>src</span> de una etiqueta <span>img</span>.</p>
+                <section class="ejemplo">
+                    <p>Ejemplo 3</p>
+                    <div class="contenedor-codigo">
+                        <div>
+                            <img src="../img/JavaScript/ejemplos/ejemplo3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="contenedor-boton">
+                        <input id="boton3" type="button" value="Vista previa" onclick="abrirEjemplo3()"></input>
+                    </div>
+                </section>
+            </article>
+
+        </main>
+        <footer>
+            Derechos Reservados
+        </footer>
+    </div>
+
+    <script src="../js/ocultar-nav-js.js"></script>
+    <script src="../js/transiciones/transicion-header.js"></script>
+    <script src="../js/pestañas-js/abrir-nueva-pestaña-introduccion.js"></script>
+</body>
+</html>
